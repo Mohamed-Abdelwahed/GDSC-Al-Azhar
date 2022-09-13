@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    border:2px solid #000;
+    width:95%;
+    margin: auto;
+    margin-top: 20px;
+    /* height: 500px; */
+}
+.pageTitle{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px 0;
+    background-color: #f1f1f1;
+    padding: 5px 0;
+    text-transform: uppercase;
+}
+.price{
+    font-size: 22px;
+    margin: 20px 0;
+}
+.free-shipping{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:grey;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+.alone-paragraph{
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.more-info{
+    color: #000;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 22px;
+    /* padding: 20px 0; */
+    /* margin: 20px 0; */
+}
+.pro-det{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 20px 0;
+}
+.list{
+    margin-left: 50px;
+    list-style-type:square;
+    font-size: 20px;
+    /* margin-botto; */
+    margin-bottom: 40px;
+}
+.last-button{
+    border: 0;
+    /* width: 200px; */
+    height: 30px;
+    color: #fff;
+    background-color: #000;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 0 5px;
+}
