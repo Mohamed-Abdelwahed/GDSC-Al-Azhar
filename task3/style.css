@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+html{
+    font-size: 10px;
+}
+.container{
+    border:.5rem solid #000;
+    width:65vw;
+    margin: auto;
+    margin-top: 5rem;
+}
+.pageTitle{
+    text-align: center;
+    font-size: 2rem;
+    background-color: #f1f1f1;
+    padding: 2rem 0;
+    text-transform: uppercase;
+}
+.price{
+    font-size: 2rem;
+    margin: 20px 0;
+}
+.free-shipping{
+    color:grey;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+.alone-paragraph{
+    margin: 2rem 0 0;
+    font-size: 1.5rem;
+
+}
+.more-info{
+    color: #000;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 22px;
+ 
+}
+.pro-det{
+    margin: 20px 0;
+}
+.list{
+    margin-left: 50px;
+    list-style-type:square;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.last-button{
+    border: 0;
+    height: 30px;
+    color: #fff;
+    background-color: #000;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 0 5px;
+}
