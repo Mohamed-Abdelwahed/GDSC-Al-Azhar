@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 }
 html{
     font-size: 10px;
@@ -14,7 +13,7 @@ html{
     margin: auto;
     margin-top: 5rem;
 }
-.pageTitle{
+.page__Title{
     text-align: center;
     font-size: 2rem;
     background-color: #f1f1f1;
@@ -22,41 +21,49 @@ html{
     text-transform: uppercase;
 }
 .price{
-    font-size: 2rem;
-    margin: 20px 0;
+    font-size: 2.3rem;
+    margin: 1rem 0;
 }
 .free-shipping{
     color:grey;
-    margin: 20px 0;
     text-transform: uppercase;
+    font-size: 1.3rem;
 }
 .alone-paragraph{
     margin: 2rem 0 0;
     font-size: 1.5rem;
 
 }
-.more-info{
+.page__link{
     color: #000;
-    text-decoration: none;
-    font-weight: 800;
-    font-size: 22px;
- 
+    font-size: 1.5rem;
 }
-.pro-det{
-    margin: 20px 0;
+.page__link:hover{
+    text-decoration: none;
+}
+.product__details{
+    font-size: 2rem;
+    margin: 2rem 0;
 }
 .list{
-    margin-left: 50px;
+    margin-left: 2.5rem;
     list-style-type:square;
-    font-size: 20px;
+    font-size: 1.5rem;
     margin-bottom: 40px;
 }
-.last-button{
-    border: 0;
-    height: 30px;
+.list__li--spaces{
+     margin-bottom: 3rem;
+}
+.button--fluid{
+    border-top: .5rem solid #000 ;
+    height: 6rem;
+    width: 100%;
     color: #fff;
     background-color: #000;
-    font-size: 22px;
+    font-size:2rem;
     text-transform: uppercase;
-    padding: 0 5px;
+}
+.button--fluid:hover{
+    color: #000;
+    background-color: #f1f1f1;
 }
