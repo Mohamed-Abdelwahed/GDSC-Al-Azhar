@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --mainColor:red;
+    --secondColor:green;
+}
+
+div{
+    --mainColor:red;
+    color:var(--mainColor);
+}
+      
+div{
+    background-color: red !important;
+}
+
+.transition{
+    background-color: brown;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    font-size: 30px;
+    /* transition-duration:5s; */
+    transition-delay:.5s;
+    /* transition-property:; */
+    /* transition-timing-function:ease-in-out; */
+    /* transition:all 2s .5s linear; */
+}
+ 
+.transition:hover{
+    width: 600px;
+    height: 600px;
+    color: #fff;
+    line-height: 600px;
+    justify-content: center;
+}
