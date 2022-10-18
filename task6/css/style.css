@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+:root{
+    --mainColor:#0e092e;
+    --secondColor:#184a56c6;
+}
+
+body{
+    background-color: var(--secondColor);
+}
+.card{
+    display: flex;
+    background-color: var(--mainColor);
+    color: #fff;
+    width: 70%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    justify-content: space-evenly;
+    color: var(--secondColor);
+    border-radius: 10px;
+}
+
+.card__img {
+    width: 30%;
+    transform: scale(1.2);
+    border: 30px;
+    position: relative;
+}
+
+.img-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0e092e;
+    top: 0;
+    border-radius:15px ;
+    opacity: .4;
+    transition: opacity .5s;
+}
+
+.img-overlay:hover{
+    cursor: pointer;
+    opacity: 0;
+}
+
+.card__img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.card__content{
+ width: 50%;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ line-height: 25px;
+ transition: color .5s;
+}
+
+.card__content:hover{
+    color: #fff;
+}
+.card::before , .card::after{
+    content: ">";
+    text-align: center;
+    color: var(--mainColor);
+    line-height: 50px;
+    position: absolute;
+    top: 50%;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transform: translate(0,-50%);
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 900;
+    opacity: .98;
+    transition: all .5s;
+}
+
+.card::before{
+    content: "<";
+    left: -25px;
+}
+
+.card::after{
+    right: -25px;
+}
+
+.card:hover::after , .card:hover::before {
+    opacity: 1;
+    font-size: 30px;
+}
+.card__bullets{ 
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width:80px;
+    position: absolute;
+    bottom: -25px;
+}
+
+.card__bullets li{
+    border: 2px solid var(--mainColor);
+    width: 12px ;
+    height: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.card__bullets li:first-child{
+    background-color: var(--mainColor);
+}
+
+.card__bullets li:hover{
+    transform: scale(1.2);
+    background-color: var(--mainColor);
+}
+
